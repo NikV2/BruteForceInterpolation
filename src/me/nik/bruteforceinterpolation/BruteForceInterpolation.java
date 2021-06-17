@@ -1034,7 +1034,7 @@ public class BruteForceInterpolation {
 
     private static final Executor POOL = Executors.newCachedThreadPool();
 
-    public static void main(String[] args) {
+    public void main() {
         THREADS.parallelStream().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
