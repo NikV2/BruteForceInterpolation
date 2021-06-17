@@ -60,5 +60,5 @@ If you encounter this error, it is the problem of your Arithmetic Logic Unit. It
 
 ## Credits
 Original interpolation bruteforce formula developed by [iced](https://raisingchildren.net.au/__data/assets/image/0027/49293/Helping-babies-sleep-narrow.jpg)
-Original Java implementation by [Hydrogen](https://pbs.twimg.com/profile_images/1392322956831858688/hvCpQ70R_400x400.jpg)
+
 BruteForceInterpolation by Nik (pictured above).
