@@ -25,3 +25,14 @@ May throw this error:
 ![idea64_k4FAT3nVU4](https://user-images.githubusercontent.com/67660019/122411666-37480980-cf85-11eb-9af1-33a20b1ca6ed.png)
 
 If you encounter this error, it's a YOU issue.
+
+
+## Other bruteforce graph
+
+![screenshot](https://user-images.githubusercontent.com/67660019/122412443-dbca4b80-cf85-11eb-8320-03c650d55beb.png)
+
+![109812](https://user-images.githubusercontent.com/67660019/122412518-ee448500-cf85-11eb-8376-33398ebf7ec8.png)
+
+![image-12](https://user-images.githubusercontent.com/67660019/122412556-f4d2fc80-cf85-11eb-8caf-61e45eb0a5d7.jpg)
+
+![images](https://user-images.githubusercontent.com/67660019/122412591-fd2b3780-cf85-11eb-9f8d-250ae94d7c02.png)
