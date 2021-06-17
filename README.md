@@ -4,7 +4,7 @@
 
 Brute forcing interpolation is a tactic used by the best anti-cheat developers in the Minecraft community to detect low reach modifications.
 
-![avatar_updated](https://user-images.githubusercontent.com/50290580/122412072-f30d3700-cf8d-11eb-8105-f268bdf23f99.png)
+![interpolation_bruteforced](https://user-images.githubusercontent.com/61439310/122414747-0b7e5100-cf90-11eb-8076-fcc0bc12cf08.png)
 
 ## How does it work?
 
