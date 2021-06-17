@@ -27,7 +27,7 @@ May throw this error:
 If you encounter this error, it's a YOU issue.
 
 
-## Other bruteforce graph
+## Other bruteforce graphs
 
 ![screenshot](https://user-images.githubusercontent.com/67660019/122412443-dbca4b80-cf85-11eb-8320-03c650d55beb.png)
 
