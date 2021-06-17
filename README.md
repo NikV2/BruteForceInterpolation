@@ -12,7 +12,7 @@ Brute forcing interpolation does advanced math to estimate a players position on
 
 ![image](https://user-images.githubusercontent.com/50290580/122410309-79c11480-cf8c-11eb-95d6-14237c9587c5.png)
 
-## How do i contribute?
+## How do I contribute?
 
 Rules: You must use a parallel stream for every method, And create a new thread on top of it, This is due to improve perfomance
 
