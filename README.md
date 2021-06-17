@@ -23,3 +23,5 @@ Rules: You must use a parallel stream for every method, And create a new thread 
 May throw this error:
 
 ![idea64_k4FAT3nVU4](https://user-images.githubusercontent.com/67660019/122411666-37480980-cf85-11eb-9af1-33a20b1ca6ed.png)
+
+If you encounter this error, it's a YOU issue.
