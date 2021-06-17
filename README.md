@@ -36,3 +36,8 @@ If you encounter this error, it's a YOU issue.
 ![image-12](https://user-images.githubusercontent.com/67660019/122412556-f4d2fc80-cf85-11eb-8caf-61e45eb0a5d7.jpg)
 
 ![images](https://user-images.githubusercontent.com/67660019/122412591-fd2b3780-cf85-11eb-9f8d-250ae94d7c02.png)
+
+![image](https://user-images.githubusercontent.com/50290580/122412739-7e86c800-cf8e-11eb-8b9f-aca56b601761.png)
+
+![image](https://user-images.githubusercontent.com/50290580/122412771-85add600-cf8e-11eb-9043-a81aaf126e3d.png)
+
