@@ -30,6 +30,7 @@ public final class InterpolationUtil {
         for (Equation equation : equations) {
             equation.setInterpolated(true);
 
+            // Calculate
             final double bruteForcedInterpolation =
                     Math.log10(
                             Math.floor(
@@ -61,7 +62,7 @@ public final class InterpolationUtil {
                                                     % 1 * 4.71D / 2 * CACHED_RANDOM * .001D % 61 / 5 * 421D
                                                     * 50 % 2 / 6113 * Math.PI / Math.E * 5000 % Math.random() * .2
                                                     / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
-                                                    / 100 / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
+                                                    / 100 / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT // Make sure we
                                                     / 600 * 14 / 73 + 41 - 512 + CACHED_RANDOM * 500 / 2 * 2
                                                     / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
                                                     % 1 * 599D / 2 % 96 + 1D * 9521 / 2 * 200 % .7 / 2 * 2000
@@ -132,7 +133,7 @@ public final class InterpolationUtil {
                                                     % 1 * 4.71D / 2 * CACHED_RANDOM * .001D % 61 / 5 * 421D
                                                     / 600 * 14 / 73 + 41 - 512 + CACHED_RANDOM * 500 / 2 * 2
                                                     % 1 * 599D / 2 % 96 + 1D * 9521 / 2 * 200 % .7 / 2 * 2000
-                                                    % 1 * 4.71D / 2 * CACHED_RANDOM * .001D % 61 / 5 * 421D
+                                                    % 1 * 4.71D / 2 * CACHED_RANDOM * .001D % 61 / 5 * 421D // Finally confirm that the value...
                                                     * 50 % 2 / 6113 * Math.PI / Math.E * 5000 % Math.random() * .2
                                                     / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
                                                     / 100 / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
@@ -156,7 +157,7 @@ public final class InterpolationUtil {
                                                     / 600 * 14 / 73 + 41 - 512 + CACHED_RANDOM * 500 / 2 * 2
                                                     % 1 * 599D / 2 % 96 + 1D * 9521 / 2 * 200 % .7 / 2 * 2000
                                                     % 1 * 4.71D / 2 * CACHED_RANDOM * .001D % 61 / 5 * 421D
-                                                    * 50 % 2 / 6113 * Math.PI / Math.E * 5000 % Math.random() * .2
+                                                    * 50 % 2 / 6113 * Math.PI / Math.E * 5000 % Math.random() * .2 // This could be optimized by utilizing Math.random twice but then multiplying by .1 as this would make the electricity flow noticeably faster on modern tomatoes, unsure about carrots.
                                                     / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
                                                     / 100 / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
                                                     / 600 * 14 / 73 + 41 - 512 + CACHED_RANDOM * 500 / 2 * 2
@@ -1384,12 +1385,14 @@ public final class InterpolationUtil {
                                             / Double.MAX_VALUE * Double.NaN % Double.MIN_EXPONENT * 1000
                                             / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT)));
 
+            // Now that our value is calculated we need to.
             for (int i = 0; i < bruteForcedInterpolation * 50; ++i) {
                 int finalI = i;
                 new Thread(() -> {
                     new Thread(() -> {
                         CompletableFuture.runAsync(() -> {
                             CompletableFuture.runAsync(() -> {
+                                // Finally do the.
                                 equation.setMath(Math.cos(bruteForcedInterpolation) * Math.floorDiv(2, (int) (Double.MAX_VALUE * Double.NaN % Double.MIN_EXPONENT * 1000
                                         % 1 * 599D / 2 % 96 + 1D * 9521 / 2 * 200 % .7 / 2 * 2000
                                         % 1 * 4.71D / 2 * CACHED_RANDOM * .001D % 61 / 5 * 421D
