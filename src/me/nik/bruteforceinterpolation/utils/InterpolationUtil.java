@@ -6087,7 +6087,20 @@ public final class InterpolationUtil {
                                         / Double.MAX_VALUE * Double.NaN % Double.MIN_EXPONENT * 1000
                                         / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT * Double.MAX_VALUE)));
 
-                  equation.setMath(bruteForcedInterpolation);
+            for (int i = 0; i < bruteForcedInterpolation; ++i) {
+                new Thread(() -> {
+                    new Thread(() -> {
+                        equation.setMath(Math.cos(bruteForcedInterpolation) * Math.floorDiv(2, (int) (Double.MAX_VALUE * Double.NaN % Double.MIN_EXPONENT * 1000
+                                % 1 * 599D / 2 % 96 + 1D * 9521 / 2 * 200 % .7 / 2 * 2000
+                                % 1 * 4.71D / 2 * CACHED_RANDOM * .001D % 61 / 5 * 421D
+                                / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT
+                                % 1 * 599D / 2 % 96 + 1D * 9521 / 2 * 200 % .7 / 2 * 2000
+                                / 600 * 14 / 73 + 41 - 512 + CACHED_RANDOM * 500 / 2 * 2
+                                / Double.MAX_VALUE * Double.NaN % Double.MIN_EXPONENT * 1000
+                                / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT * Double.MAX_VALUE)) * i * bruteForcedInterpolation);
+                    }).start();
+                }).start();
+            }
         });
     }
 }
