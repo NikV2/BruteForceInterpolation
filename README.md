@@ -1,4 +1,4 @@
-# Brute Forcing Interpolation implementation by Nik
+# Brute Forcing Interpolation 
 
 ## About
 
