@@ -1,5 +1,3 @@
-![original](https://user-images.githubusercontent.com/67660019/122413303-8d697c80-cf86-11eb-9c92-ca9c75167235.jpg)
-![netcode5](https://user-images.githubusercontent.com/67660019/122413307-8e021300-cf86-11eb-86a1-e8cd113923ce.png)
 # Brute Forcing Interpolation 
 
 ## About
@@ -43,3 +41,6 @@ If you encounter this error, it's a YOU issue.
 
 ![image](https://user-images.githubusercontent.com/50290580/122412771-85add600-cf8e-11eb-9043-a81aaf126e3d.png)
 
+![original](https://user-images.githubusercontent.com/67660019/122413303-8d697c80-cf86-11eb-9c92-ca9c75167235.jpg)
+
+![netcode5](https://user-images.githubusercontent.com/67660019/122413307-8e021300-cf86-11eb-86a1-e8cd113923ce.png)
