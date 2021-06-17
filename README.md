@@ -4,6 +4,8 @@
 
 Brute forcing interpolation is a tactic used by the best anti-cheat developers in the Minecraft community to detect low reach modifications.
 
+![wurst_380](https://user-images.githubusercontent.com/50290580/122411084-256a6480-cf8d-11eb-9239-dfc5afb171fa.png)
+
 ## How does it work?
 
 Brute forcing interpolation does advanced math to estimate a players position on the players screen.
