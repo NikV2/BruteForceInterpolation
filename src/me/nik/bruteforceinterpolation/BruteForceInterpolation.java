@@ -62,10 +62,75 @@ public class BruteForceInterpolation {
                                                     .parallel()
                                                     .parallel()
                                                     .parallel()
-                                                    .forEach(InterpolationUtil::bruteforce))))));
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .parallel()
+                                                    .forEach(e -> new Thread(() ->
+                                                            new Thread(() ->
+                                                                    new Thread(() ->
+                                                                            new Thread(() ->
+                                                                                    new Thread(() ->
+                                                                                            new Thread(() ->
+                                                                                                    new Thread(() ->
+                                                                                                            new Thread(() ->
+                                                                                                                    new Thread(() ->
+                                                                                                                            new Thread(() ->
+                                                                                                                                    new Thread(() ->
+                                                                                                                                            new Thread(() ->
+                                                                                                                                                    new Thread(() ->
+                                                                                                                                                            new Thread(() ->
+                                                                                                                                                                    new Thread(() ->
+                                                                                                                                                                            new Thread(() ->
+                                                                                                                                                                                    new Thread(() ->
+                                                                                                                                                                                            new Thread(() ->
+                                                                                                                                                                                                    new Thread(() ->
+                                                                                                                                                                                                            new Thread(() ->
+                                                                                                                                                                                                                    new Thread(() ->
+                                                                                                                                                                                                                            new Thread(() ->
+                                                                                                                                                                                                                                    new Thread(() ->
+                                                                                                                                                                                                                                            new Thread(() ->
+                                                                                                                                                                                                                                                    InterpolationUtil.bruteforce(equation)).start()).start()).start()
+                                                                                                                                                                                                                    ).start()).start()).start()).start()
+                                                                                                                                                                                    ).start()).start()).start()).start()
+                                                                                                                                                    ).start()).start()).start()).start()
+                                                                                                                    ).start()).start()).start()).start()
+                                                                                    ).start()).start()).start()).start()
+                                                    ).start()))))));
 
         } catch (BruteForceInterpolationException e) {
-
+            e.printStackTrace();
             //IF WE FAIL, THIS IS BIG BRAIN
             main(null);
         }
