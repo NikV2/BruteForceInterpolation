@@ -59,6 +59,4 @@ If you encounter this error, it is the problem of your Arithmetic Logic Unit. It
 ![Senza nome](https://user-images.githubusercontent.com/67660019/122413942-0d8fe200-cf87-11eb-94d4-3b77a1b241ad.png)
 
 ## Credits
-Original interpolation bruteforce formula developed by [iced](https://raisingchildren.net.au/__data/assets/image/0027/49293/Helping-babies-sleep-narrow.jpg)
-
 BruteForceInterpolation by Nik (pictured above).
