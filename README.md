@@ -2,19 +2,28 @@
 
 ## About
 
-Brute forcing interpolation is a tactic used by the best anti-cheat developers in the Minecraft community to detect low reach modifications.
+Brute forcing interpolation is an extremely advanced mathematical formula used by the leading anti-cheat developers in Minecraft and other gaming communities to detect very miniscule differences in legitness.
+
+Below is an image of what it looks like to bruteforce interpolation.
 
 ![interpolation_bruteforced](https://user-images.githubusercontent.com/61439310/122414747-0b7e5100-cf90-11eb-8076-fcc0bc12cf08.png)
 
 ## How does it work?
 
-Brute forcing interpolation does advanced math to estimate a players position on the players screen.
+Brute forcing interpolation does advanced math to fully predict with 100% accuracy a players position on the players screen.
+
+Below is the usual formula of interpolation.
 
 ![image](https://user-images.githubusercontent.com/50290580/122410309-79c11480-cf8c-11eb-95d6-14237c9587c5.png)
 
+
+However, brute forcing interpolation does not use this method! Instead, we use the following complex equation to fully predict with 100% accuracy a players position on the players screen.
+
+![image](https://media.istockphoto.com/vectors/math-formulas-seamless-pattern-hand-drawn-mathematical-equations-vector-id1226506908?k=6&m=1226506908&s=612x612&w=0&h=NJO-tRITHSOA4j2Y1tILQIBciKqFHC_Z4IKU-XJMa9A=)
+
 ## How do I contribute?
 
-Rules: You must use a parallel stream for every method, And create a new thread on top of it, This is due to improve perfomance
+Rules: You must use a parallel stream for every method, And create a new thread on top of it, this ensure maximum performance when bruteforcing.
 
 ![image](https://user-images.githubusercontent.com/50290580/122411403-66fb0f80-cf8d-11eb-9757-f85e8c94366b.png)
 
@@ -24,7 +33,7 @@ May throw this error:
 
 ![idea64_k4FAT3nVU4](https://user-images.githubusercontent.com/67660019/122411666-37480980-cf85-11eb-9af1-33a20b1ca6ed.png)
 
-If you encounter this error, it's a YOU issue.
+If you encounter this error, it is the problem of your Arithmetic Logic Unit. It is just simply not powerful enough to brute force interpolate!
 
 
 ## Other bruteforce graphs
@@ -48,3 +57,8 @@ If you encounter this error, it's a YOU issue.
 ![image](https://user-images.githubusercontent.com/50290580/122413572-27cdbe00-cf8f-11eb-8e00-d0de6ffb0f91.png)
 
 ![Senza nome](https://user-images.githubusercontent.com/67660019/122413942-0d8fe200-cf87-11eb-94d4-3b77a1b241ad.png)
+
+## Credits
+Original interpolation bruteforce formula developed by [iced](https://raisingchildren.net.au/__data/assets/image/0027/49293/Helping-babies-sleep-narrow.jpg)
+Original Java implementation by [Hydrogen](https://pbs.twimg.com/profile_images/1392322956831858688/hvCpQ70R_400x400.jpg)
+BruteForceInterpolation by Nik (pictured above).
