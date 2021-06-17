@@ -1,5 +1,9 @@
-# BruteForceInterpolation
-An amazing representation of what Brute Forcing Interpolation Looks like in action.
+# Brute Forcing Interpolation implementation by Nik
 
-NOTE: CREDIT MUST BE GIVEN IF YOU WISH TO USE THIS ON YOUR PRODUCTION PROJECT.
-OTHERWISE LEGAL ACTIONS WILL BE TAKEN AND YOUR HEALTH WILL BE IN DANGER.
+## About
+
+Brute forcing interpolation is a tactic used by the best anti-cheat developers in the Minecraft community to detect low reach modifications.
+
+## How does it work?
+
+Brute forcing interpolation does advanced math to estimate a players position on the players screen.
