@@ -60,3 +60,4 @@ If you encounter this error, it is the problem of your Arithmetic Logic Unit. It
 
 ## Credits
 BruteForceInterpolation by Nik (pictured above).
+Original idea by Iced
