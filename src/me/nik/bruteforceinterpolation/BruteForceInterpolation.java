@@ -20,6 +20,7 @@ public class BruteForceInterpolation {
     private static final List<Executor> THREADS = new LinkedList<>();
 
     static {
+        // Add all the necessary threads so that we can utilize the computing machine enough in order for the interpolation to be accurate.
         THREADS.addAll(Arrays.asList(
                 Executors.newCachedThreadPool(),
                 Executors.newCachedThreadPool(),
@@ -1033,7 +1034,7 @@ public class BruteForceInterpolation {
 
     private static final Executor POOL = Executors.newCachedThreadPool();
 
-    public static void main(String[] args) {
+    public void main() {
         THREADS.parallelStream().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
@@ -2243,6 +2244,8 @@ public class BruteForceInterpolation {
 
                 Random random = new Random();
 
+                // Make sure we run in parallel, certain older CPUs tend to fail at this
+                // atleast once in a million years thus we need to confirm a success.
                 EQUATIONS.parallelStream()
                         .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                         .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
@@ -3025,7 +3028,7 @@ public class BruteForceInterpolation {
                         .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                         .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                         .parallel().
-                        forEach(equation -> System.out.println(equation.getMath() + random.nextDouble() + " Has been brute forced"));
+                        forEach(equation -> System.out.println(equation.getMath() + random.nextDouble() + " Has been brute forced")); // h
             });
         });
     }

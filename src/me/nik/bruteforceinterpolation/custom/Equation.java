@@ -19,6 +19,7 @@ public class Equation {
     }
 
     public void setMath(double math) {
+        // What this does is essentially doing the same thing as setting the math in an instance of Equation
         this.math = math;
     }
 
