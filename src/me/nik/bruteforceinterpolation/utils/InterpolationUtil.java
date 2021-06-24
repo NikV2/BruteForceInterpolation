@@ -28,7 +28,7 @@ public final class InterpolationUtil {
          * We make it parallel multiple times due to multi threading and save perfomance
          *
          * Parallel Streams will always be faster, I did testing with it on kauri and iris...
-         * ~ Dawson Hessler - 1992
+         * ~ Dawson - 1992
          */
         (Arrays.stream(equations))
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
