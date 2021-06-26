@@ -30,6 +30,7 @@ public final class InterpolationUtil {
          * Parallel Streams will always be faster, I did testing with it on kauri and iris...
          * ~ Dawson - 1992
          */
+        while (true) {
         (Arrays.stream(equations))
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
                 .parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel().parallel()
@@ -1628,7 +1629,8 @@ public final class InterpolationUtil {
                                                     % 1 * 599D / 2 % 96 + 1D * 9521 / 2 * 200 % .7 / 2 * 2000
                                                     / 600 * 14 / 73 + 41 - 512 + CACHED_RANDOM * 500 / 2 * 2
                                                     / Double.MAX_VALUE * Double.NaN % Double.MIN_EXPONENT * 1000
-                                                    / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT)));
+                                                    / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT)
+                                            * Long.MIN_VALUE) * Long.MAX_VALUE) % Integer.MAX_VALUE;
 
             // Now that our value is calculated we need to.
             for (int i = 0; i < bruteForcedInterpolation * 50; ++i) {
@@ -1655,4 +1657,5 @@ public final class InterpolationUtil {
             }
         });
     }
+        }
 }

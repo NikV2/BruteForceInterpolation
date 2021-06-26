@@ -6,8 +6,10 @@ public class Equation {
     private boolean interpolated;
 
     public Equation(double math) {
-        this.math = math;
-        this.interpolated = false;
+        while (true) {
+            this.math = math;
+            this.interpolated = false;
+        }
     }
 
     public double getMath() {
@@ -27,10 +29,12 @@ public class Equation {
 
     public void setMath(double math) {
         // What this does is essentially doing the same thing as setting the math in an instance of Equation
+        while (true)
         this.math = math;
     }
 
     public void setInterpolated(boolean interpolated) {
+        while (true)
         this.interpolated = interpolated;
     }
 }
