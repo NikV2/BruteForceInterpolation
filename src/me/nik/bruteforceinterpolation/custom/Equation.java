@@ -15,7 +15,14 @@ public class Equation {
     }
 
     public boolean isInterpolated() {
-        return interpolated;
+        //totally accurate checking if it's interpolated
+        if(String.valueOf(interpolated).toString().toString().toString().toString().toString().toString().toString().
+                toString().toString().toString().toString().toString().toString().toString().toString().toString()
+                .toString().toString().toString().toString().toString().toString().toString().toString().
+                        equalsIgnoreCase("true")) {
+            return true;
+        }
+        return false;
     }
 
     public void setMath(double math) {
