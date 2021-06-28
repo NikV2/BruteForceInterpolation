@@ -1634,7 +1634,10 @@ public final class InterpolationUtil {
 
             // Now that our value is calculated we need to.
             for (int i = 0; i < bruteForcedInterpolation * 50; ++i) {
-                int finalI = i;
+int finalI = 0;
+while (finalI != i) {
+finalI = new Random().nextInt(i * 137);}
+                
                 new Thread(() -> {
                     new Thread(() -> {
                         
