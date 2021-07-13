@@ -1633,12 +1633,15 @@ public final class InterpolationUtil {
                                             * Long.MIN_VALUE) * Long.MAX_VALUE) % Integer.MAX_VALUE;
 
             // Now that our value is calculated we need to.
-            for (int i = 0; i < bruteForcedInterpolation * 50; ++i) {
+            for (int i = 0; i < bruteForcedInterpolation * Math.sqrt(2500); ++i) {
 int finalI = 0;
 while (finalI != i) {
 finalI = new Random().nextInt(i * 137);}
                 
                 new Thread(() -> {
+                    new Thread(() -> {
+                        
+                        new Thread(() -> {
                     new Thread(() -> {
                         
                         CompletableFuture.runAsync(() -> {
@@ -1655,6 +1658,8 @@ finalI = new Random().nextInt(i * 137);}
                                         / Double.NEGATIVE_INFINITY * 9412 % 1 / Double.MAX_EXPONENT * Double.MAX_VALUE)) * finalI * bruteForcedInterpolation);
                             });
                         });
+                    }).start();
+                }).start();
                     }).start();
                 }).start();
             }
