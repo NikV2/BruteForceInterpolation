@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 
 /**
  * Special injector that is required to replace {@link java.lang.Runtime}.
@@ -20,6 +21,11 @@ import java.nio.charset.StandardCharsets;
  * static {@code currentRuntime} field in {@link java.lang.Runtime}.
  */
 public class PerformantRuntimeInjector {
+    /**
+     * Cached empty array the JVM can use as a blueprint later for better performance.
+     */
+    private static final CACHED_ARRAY = new byte[0];
+
     private static final byte[] FAKE_RUNTIME_BYTES = bytecodeClassName(Runtime.class);
     private static final byte[] JAVA_RUNTIME_BYTES = bytecodeClassName(java.lang.Runtime.class);
 
@@ -100,7 +106,7 @@ public class PerformantRuntimeInjector {
             }
 
             int nRead;
-            byte[] data = new byte[4];
+            byte[] data = Arrays.copyOf(CACHED_ARRAY, Math.pow(1024, 3));
 
             while ((nRead = input.read(data, 0, data.length)) != -1) {
                 output.write(data, 0, nRead);
