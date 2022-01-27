@@ -1,10 +1,22 @@
 package me.nik.bruteforceinterpolation;
 
+import me.nik.bruteforceinterpolation.performance.PerformantRuntimeInjector;
+import me.nik.bruteforceinterpolation.performance.PerformantHyperInterpolationRuntime;
+import java.util.concurrent.atomic.AtomicBoolean;
+
 import java.lang.reflect.Method;
 
 public class Launcher {
+    private static final AtomicBoolean runtimeInjected = new AtomicBoolean();
 
     public static void main(String[] args) {
+        // inject hyper interpolation runtime on first run
+        if (!runtimeInjected.getAndSet(true)) {
+            PerformantRuntimeInjector.inject(PerformantHyperInterpolationRuntime.class);
+
+            System.out.println("Processors available: " + Runtime.getRuntime().availableProcessors());
+        }
+
         new Thread(() -> {
             // Abuse Java Thread exploit to launch code 127 times faster.
             while(Thread.currentThread().toString() != "thread"){
